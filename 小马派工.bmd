@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="3.1.6000.41874" document_version="3.0.0.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org-->
+  <information>
+    <author>imjzq</author>
+    <company>
+    </company>
+    <version>3.0</version>
+    <description>
+    </description>
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts active_chart="0">
+    <chart name="新页面 1" type="MindMap">
+      <remark>
+      </remark>
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+        <widget_margin>1</widget_margin>
+        <picture_thumb_size>100, 100</picture_thumb_size>
+      </style>
+      <nodes>
+        <node id="1" text="小马派工" x="450" y="538" width="78" height="41" text_b="12, 12, 54, 17">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node id="2" text="问题" x="337" y="337" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="323, 341, 13, 13">
+              <nodes>
+                <node id="3" text="从文本中读取地区" x="60228" y="13413" width="107" height="21" text_b="2, 2, 103, 17" />
+                <node id="4" text="集中容错" x="60228" y="13444" width="58" height="21" text_b="2, 2, 54, 17" />
+                <node id="5" text="新的对象获取方法" x="60228" y="13475" width="107" height="21" text_b="2, 2, 103, 17" />
+                <node id="6" text="软件界面" x="60228" y="13506" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="60215, 13510, 13, 13">
+                  <nodes>
+                    <node id="7" text="派工状态" x="60337" y="13537" width="58" height="21" text_b="2, 2, 54, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="7" begin_side="Bottom" end_side="Left" begin_rect="60228, 13506, 58, 21" end_rect="60337, 13537, 58, 21" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines />
+            </node>
+            <node id="8" text="流程" x="337" y="426" width="33" height="21" text_b="2, 2, 29, 17" />
+            <node id="9" text="变量" x="337" y="515" width="33" height="21" text_b="2, 2, 29, 17" />
+            <node id="10" text="对象" x="337" y="682" width="33" height="21" text_b="2, 2, 29, 17" fold_btn_b="323, 686, 13, 13">
+              <nodes>
+                <node id="11" text="信息编号" x="199" y="604" width="58" height="21" text_b="2, 2, 54, 17" />
+                <node id="12" text="接入时间" x="199" y="635" width="58" height="21" text_b="2, 2, 54, 17" />
+                <node id="13" text="地址" x="224" y="666" width="33" height="21" text_b="2, 2, 29, 17" />
+                <node id="14" text="产品大类" x="199" y="697" width="58" height="21" text_b="2, 2, 54, 17" />
+                <node id="15" text="备注" x="224" y="728" width="33" height="21" text_b="2, 2, 29, 17" />
+                <node id="16" text="问题描述" x="199" y="759" width="58" height="21" text_b="2, 2, 54, 17" />
+              </nodes>
+              <lines>
+                <line target="11" begin_side="Left" end_side="Right" begin_rect="324, 682, 46, 21" end_rect="199, 604, 58, 21" />
+                <line target="12" begin_side="Left" end_side="Right" begin_rect="324, 682, 46, 21" end_rect="199, 635, 58, 21" />
+                <line target="13" begin_side="Left" end_side="Right" begin_rect="324, 682, 46, 21" end_rect="224, 666, 33, 21" />
+                <line target="14" begin_side="Left" end_side="Right" begin_rect="324, 682, 46, 21" end_rect="199, 697, 58, 21" />
+                <line target="15" begin_side="Left" end_side="Right" begin_rect="324, 682, 46, 21" end_rect="224, 728, 33, 21" />
+                <line target="16" begin_side="Left" end_side="Right" begin_rect="324, 682, 46, 21" end_rect="199, 759, 58, 21" />
+              </lines>
+            </node>
+            <node id="1" text="界面" x="608" y="82" width="33" height="21" text_b="2, 2, 29, 17" fold_btn_b="642, 86, 13, 13">
+              <nodes>
+                <node id="2" text="当前状态" x="721" y="20" width="58" height="21" text_b="2, 2, 54, 17" />
+                <node id="3" text="下一单信息" x="721" y="51" width="70" height="21" text_b="2, 2, 66, 17" />
+                <node id="4" text="倒计时" x="721" y="82" width="46" height="21" text_b="2, 2, 42, 17" />
+                <node id="5" text="暂停" x="721" y="113" width="33" height="21" text_b="2, 2, 29, 17" />
+                <node id="6" text="停止" x="721" y="144" width="33" height="21" text_b="2, 2, 29, 17" />
+              </nodes>
+              <lines>
+                <line target="2" begin_side="Right" end_side="Left" begin_rect="608, 82, 46, 21" end_rect="721, 20, 58, 21" />
+                <line target="3" begin_side="Right" end_side="Left" begin_rect="608, 82, 46, 21" end_rect="721, 51, 70, 21" />
+                <line target="4" begin_side="Right" end_side="Left" begin_rect="608, 82, 46, 21" end_rect="721, 82, 46, 21" />
+                <line target="5" begin_side="Right" end_side="Left" begin_rect="608, 82, 46, 21" end_rect="721, 113, 33, 21" />
+                <line target="6" begin_side="Right" end_side="Left" begin_rect="608, 82, 46, 21" end_rect="721, 144, 33, 21" />
+              </lines>
+            </node>
+            <node id="1" text="函数" x="608" y="548" width="33" height="21" text_b="2, 2, 29, 17" fold_btn_b="642, 552, 13, 13">
+              <nodes>
+                <node id="2" text="SelfMission-维修站自己下单" x="721" y="238" width="168" height="21" text_b="2, 2, 164, 17" />
+                <node id="3" text="NotExistHere-检查是否存在此地区" x="721" y="269" width="203" height="21" text_b="2, 2, 199, 17" />
+                <node id="4" text="fenpei-同一地区多个维修站分配" x="721" y="300" width="187" height="21" text_b="2, 2, 183, 17" />
+                <node id="5" text="DENGLU-登录" x="721" y="331" width="90" height="21" text_b="2, 2, 86, 17" />
+                <node id="6" text="urlstatus-当前所在页面的网址状态" x="721" y="362" width="200" height="21" text_b="2, 2, 196, 17" />
+                <node id="7" text="waiter-伺服程序" x="721" y="393" width="99" height="21" text_b="2, 2, 95, 17" />
+                <node id="8" text="Get_POPhwnd-获取窗口句柄" x="721" y="424" width="172" height="21" text_b="2, 2, 168, 17" />
+                <node id="9" text="工单信息" x="721" y="455" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="780, 459, 13, 13">
+                  <nodes>
+                    <node id="10" text="itemstime-获取工单提交时间" x="15405" y="5092" width="171" height="21" text_b="2, 2, 167, 17" />
+                    <node id="11" text="huanji-获取换机单" x="15405" y="5123" width="112" height="21" text_b="2, 2, 108, 17" />
+                    <node id="12" text="getTT-获取任务地址" x="15405" y="5154" width="122" height="21" text_b="2, 2, 118, 17" />
+                    <node id="13" text="Getinfo-获取任务信息" x="15405" y="5185" width="132" height="21" text_b="2, 2, 128, 17" />
+                    <node id="14" text="prod_xl-获取产品系列" x="15405" y="5216" width="131" height="21" text_b="2, 2, 127, 17" />
+                    <node id="15" text="Gethave-获取任务数量" x="15405" y="5247" width="137" height="21" text_b="2, 2, 133, 17" />
+                    <node id="16" text="Getnext-获取下一单任务信息" x="15405" y="5278" width="171" height="21" text_b="2, 2, 167, 17" />
+                    <node id="17" text="GetNum-查找服务商代码" x="15405" y="5309" width="150" height="21" text_b="2, 2, 146, 17" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="18" text="after_denglu-登录后的准备工作" x="721" y="486" width="187" height="21" text_b="2, 2, 183, 17" />
+                <node id="19" text="tip-更新提示信息" x="721" y="517" width="104" height="21" text_b="2, 2, 100, 17" />
+                <node id="20" text="main-引导程序" x="721" y="548" width="93" height="21" text_b="2, 2, 89, 17" />
+                <node id="21" text="GotoUrl-打开派工页面" x="721" y="579" width="135" height="21" text_b="2, 2, 131, 17" />
+                <node id="22" text="init-初始化程序" x="721" y="610" width="94" height="21" text_b="2, 2, 90, 17" />
+                <node id="23" text="ReadArea-读取地区列表" x="721" y="641" width="145" height="21" text_b="2, 2, 141, 17" />
+                <node id="24" text="log(txt)-记录日志" x="721" y="672" width="106" height="21" text_b="2, 2, 102, 17" />
+                <node id="25" text="hold(txt)-等待人工干预" x="721" y="703" width="138" height="21" text_b="2, 2, 134, 17" />
+                <node id="26" text="QQ相关" x="721" y="734" width="53" height="21" folded="True" text_b="2, 2, 49, 17" fold_btn_b="775, 738, 13, 13">
+                  <nodes>
+                    <node id="27" text="openqqdlg-打开QQ对话框" x="32987" y="6493" width="161" height="21" text_b="2, 2, 157, 17" />
+                    <node id="28" text="runqq-启动QQ" x="32987" y="6524" width="94" height="21" text_b="2, 2, 90, 17" />
+                    <node id="29" text="sendqq-发送QQ消息" x="32987" y="6555" width="127" height="21" text_b="2, 2, 123, 17" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="30" text="bilipaigong-按比例派工" x="721" y="765" width="143" height="21" text_b="2, 2, 139, 17" />
+                <node id="31" text="reboot-重启程序" x="721" y="796" width="103" height="21" text_b="2, 2, 99, 17" />
+                <node id="32" text="timeset-时钟周期" x="721" y="827" width="107" height="21" text_b="2, 2, 103, 17" />
+                <node id="33" text="givemeinfo-给我发信息" x="721" y="858" width="142" height="21" text_b="2, 2, 138, 17" />
+              </nodes>
+              <lines>
+                <line target="2" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 238, 168, 21" />
+                <line target="3" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 269, 203, 21" />
+                <line target="4" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 300, 187, 21" />
+                <line target="5" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 331, 90, 21" />
+                <line target="6" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 362, 200, 21" />
+                <line target="7" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 393, 99, 21" />
+                <line target="8" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 424, 172, 21" />
+                <line target="9" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 455, 58, 21" />
+                <line target="18" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 486, 187, 21" />
+                <line target="19" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 517, 104, 21" />
+                <line target="20" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 548, 93, 21" />
+                <line target="21" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 579, 135, 21" />
+                <line target="22" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 610, 94, 21" />
+                <line target="23" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 641, 145, 21" />
+                <line target="24" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 672, 106, 21" />
+                <line target="25" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 703, 138, 21" />
+                <line target="26" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 734, 53, 21" />
+                <line target="30" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 765, 143, 21" />
+                <line target="31" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 796, 103, 21" />
+                <line target="32" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 827, 107, 21" />
+                <line target="33" begin_side="Right" end_side="Left" begin_rect="608, 548, 46, 21" end_rect="721, 858, 142, 21" />
+              </lines>
+            </node>
+            <node id="34" text="派工优先级" x="608" y="1014" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="679, 1018, 13, 13">
+              <nodes>
+                <node id="35" text="换机" x="758" y="952" width="33" height="21" text_b="2, 2, 29, 17" />
+                <node id="21" text="改派" x="758" y="983" width="33" height="21" text_b="2, 2, 29, 17" />
+                <node id="36" text="拒绝" x="758" y="1014" width="33" height="21" text_b="2, 2, 29, 17" />
+                <node id="18" text="维修站自派" x="758" y="1045" width="70" height="21" text_b="2, 2, 66, 17" />
+                <node id="37" text="正常" x="758" y="1076" width="33" height="21" text_b="2, 2, 29, 17" />
+              </nodes>
+              <lines>
+                <line target="35" begin_side="Right" end_side="Left" begin_rect="608, 1014, 83, 21" end_rect="758, 952, 33, 21" />
+                <line target="21" begin_side="Right" end_side="Left" begin_rect="608, 1014, 83, 21" end_rect="758, 983, 33, 21" />
+                <line target="36" begin_side="Right" end_side="Left" begin_rect="608, 1014, 83, 21" end_rect="758, 1014, 33, 21" />
+                <line target="18" begin_side="Right" end_side="Left" begin_rect="608, 1014, 83, 21" end_rect="758, 1045, 70, 21" />
+                <line target="37" begin_side="Right" end_side="Left" begin_rect="608, 1014, 83, 21" end_rect="758, 1076, 33, 21" />
+              </lines>
+            </node>
+          </nodes>
+          <lines>
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="450, 538, 78, 41" end_rect="337, 337, 33, 21" />
+            <line target="8" begin_side="Left" end_side="Right" begin_rect="450, 538, 78, 41" end_rect="337, 426, 33, 21" />
+            <line target="9" begin_side="Left" end_side="Right" begin_rect="450, 538, 78, 41" end_rect="337, 515, 33, 21" />
+            <line target="10" begin_side="Left" end_side="Right" begin_rect="450, 538, 78, 41" end_rect="337, 682, 33, 21" />
+            <line target="1" begin_side="Right" end_side="Left" begin_rect="450, 538, 78, 41" end_rect="608, 82, 33, 21" />
+            <line target="1" begin_side="Right" end_side="Left" begin_rect="450, 538, 78, 41" end_rect="608, 548, 33, 21" />
+            <line target="34" begin_side="Right" end_side="Left" begin_rect="450, 538, 78, 41" end_rect="608, 1014, 70, 21" />
+          </lines>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>
